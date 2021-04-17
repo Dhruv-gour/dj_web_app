@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>DJ Web App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+  </head>
+  <body background="background.jpg">
+  <h1 class="btn btn-warning heading">AI DJ WEB APP<br><span id="note">Note - Move your left-hand wrist 
+    up and down for increasing and decreasing the volume Move your right-hand wrist up and
+    down for increasing and decreasing the speed<span></h1>
+    <br>
+<div id="speed_div">
+    <img src="photofunky.gif">
+    <br>
+    <label id="speed_label" class="btn btn-danger">Speed <span id="speed"></span></label>
+    </div>
+
+    <div id="volume_div">
+        <img src="photofunky.gif">
+<br>
+<label id="volume_label" class="btn btn-danger">Volume <span id="volume"></span></label>
+</div>
+
+<button id="play" class="btn btn-success" onclick="play()">Play</button>
+</body>
+</html>

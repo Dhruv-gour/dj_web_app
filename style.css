@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+.heading{
+    font-size: 25px;
+    margin: 0;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+#note{
+    font-size: 16px;
+    color: black;
+}
+#speed_div{
+    float: left;
+}
+#volume_div{
+    float: right;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+}
+#play{
+    font-size: 25px;
+    width: 150px;
+    margin-top: 50px;
+}
+#speed_label{
+    margin-top: 20px;
+    font-size: 20px;
+}
+#volume_label{
+    margin-top: 20px;
+    font-size: 20px;
+}
+canvas{
+    margin-top: 50px;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px gainsboro;
+}
